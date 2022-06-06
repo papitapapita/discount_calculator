@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Discount calculator</title>
+</head>
+<body>
+    <main>
+        <form action="">
+            <label for="price">Price</label>
+            <input type="text" name="price" id="price" placeholder="Enter Value">
+            <label for="discount">Discount</label>
+            <input type="text" name="discount" id="discount" placeholder="Enter Value" >
+            <label for="coupon">Coupon</label>
+            <input type="text" name="coupon" id="coupon" placeholder="Enter Value">
+            <input type="button" value="Calculate" onclick="calculateDiscount()">
+        </form>
+        <div>
+            <p>Final Price: </p>
+            <p id="result"></p>
+        </div>
+    </main>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
